@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to bottom right, #59c173, #a17fe0, #5d26c1);
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tela-login{
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 20px;
+    color: black;
+    width: 500px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+#campo-usuario{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    width: 100%;
+}
+
+#campo-senha{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    width: 100%;
+}
+
+#login-btn{
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+#login-btn:hover{
+    background-color: #a17fe0;
+    color: white;
+}
+
+.footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.txt-rodape{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    margin: 15px;
+}
+
+.social-media{
+    text-decoration: none;
+    color: white;
+}
+
+.social-media:hover{
+    color: white;
+}
